@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: TASK_TWO
+  datasource:
+    username: root
+    password: 5551
+    url: jdbc:mysql://192.168.163.131:3306/atcrowdfunding190401?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    host: 192.168.163.131
+    port: 6379
+
+ 
+mybatis:
+  config-location: classpath:/mybatis/mybatis-config.xml
+  mapper-locations: classpath:/mybatis/mapper/*.xml
+ 
+
+server:
+  port: 8888
+  
+  
+
+
